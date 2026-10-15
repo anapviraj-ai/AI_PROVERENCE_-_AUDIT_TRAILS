@@ -1,0 +1,11 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+sqlalchemy>=2.0.35
+cryptography>=43.0.0
+pydantic>=2.10.0
+streamlit>=1.39.0
+requests>=2.32.0
+python-multipart>=0.0.12
+scikit-learn>=1.5.0
+numpy>=2.0.0
+aiofiles>=24.1.0

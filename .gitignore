@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Cryptographic Keys (Auto-generated at runtime; ignored to protect secrets and avoid GitHub push blocks)
+private_key.pem
+
+# SQLite database & journals
+*.db
+*.db-shm
+*.db-wal
+
+# Dynamic runtime uploads (keep directory with .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# IDE and OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
